@@ -1,0 +1,239 @@
+{
+  "version": "0.4",
+  "title": "Sabores de Chile - Inicio",
+  "type": "page",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "sec1bien",
+      "elType": "section",
+      "settings": {
+        "structure": "10",
+        "background_background": "classic",
+        "background_color": "#FFF7EC",
+        "padding": { "unit": "px", "top": "70", "right": "0", "bottom": "60", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "col1bien",
+          "elType": "column",
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            {
+              "id": "h1bien01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sabores de Chile",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#3A2A20"
+              },
+              "elements": []
+            },
+            {
+              "id": "txbien01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Un sitio dedicado a la cocina tradicional chilena, esa que aprendemos en la casa y que nos junta alrededor de la mesa. Aquí vas a encontrar recetas de toda la vida, la historia detrás de cada plato y las tradiciones que hacen que comer en Chile sea mucho más que solo alimentarse.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "dvbien01",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#E6A23C",
+                "weight": { "unit": "px", "size": 3 },
+                "width": { "unit": "px", "size": 90 },
+                "align": "center"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec2rece",
+      "elType": "section",
+      "settings": {
+        "structure": "30",
+        "padding": { "unit": "px", "top": "64", "right": "0", "bottom": "64", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "col2tit0",
+          "elType": "column",
+          "settings": { "_column_size": 100, "_inline_size": 100 },
+          "elements": [
+            {
+              "id": "h2rece00",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Recetas tradicionales", "header_size": "h2", "align": "center", "title_color": "#3A2A20" },
+              "elements": []
+            },
+            {
+              "id": "txrece00",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Empezamos por lo más rico: los platos clásicos que no pueden faltar. Paso a paso, con ingredientes que encuentras en cualquier feria, para que te queden igual que en casa.</p>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col2re01",
+          "elType": "column",
+          "settings": { "_column_size": 33, "_inline_size": 33.33 },
+          "elements": [
+            {
+              "id": "icrece01",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": { "value": "fas fa-drumstick-bite", "library": "fa-solid" },
+                "align": "center",
+                "primary_color": "#B1232C"
+              },
+              "elements": []
+            },
+            {
+              "id": "h3rece01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Empanadas de pino", "header_size": "h3", "align": "center" },
+              "elements": []
+            },
+            {
+              "id": "txrece01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">La reina de las Fiestas Patrias: carne, cebolla, huevo, aceituna y una pasita. Crujiente por fuera y jugosa por dentro.</p>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col2re02",
+          "elType": "column",
+          "settings": { "_column_size": 33, "_inline_size": 33.33 },
+          "elements": [
+            {
+              "id": "icrece02",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": { "value": "fas fa-seedling", "library": "fa-solid" },
+                "align": "center",
+                "primary_color": "#B1232C"
+              },
+              "elements": []
+            },
+            {
+              "id": "h3rece02",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Pastel de choclo", "header_size": "h3", "align": "center" },
+              "elements": []
+            },
+            {
+              "id": "txrece02",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Choclo molido y gratinado sobre un buen pino, con su toque de azúcar. El plato de los almuerzos de verano por excelencia.</p>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        },
+        {
+          "id": "col2re03",
+          "elType": "column",
+          "settings": { "_column_size": 33, "_inline_size": 33.33 },
+          "elements": [
+            {
+              "id": "icrece03",
+              "elType": "widget",
+              "widgetType": "icon",
+              "settings": {
+                "selected_icon": { "value": "fas fa-bowl-food", "library": "fa-solid" },
+                "align": "center",
+                "primary_color": "#B1232C"
+              },
+              "elements": []
+            },
+            {
+              "id": "h3rece03",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Cazuela de la casa", "header_size": "h3", "align": "center" },
+              "elements": []
+            },
+            {
+              "id": "txrece03",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Un caldo reconfortante con su presa, papa, zapallo y choclo. Perfecta para los días fríos del sur de Chile.</p>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "sec3trad",
+      "elType": "section",
+      "settings": {
+        "structure": "10",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "64", "right": "0", "bottom": "64", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "col3trad",
+          "elType": "column",
+          "settings": { "_column_size": 100, "_inline_size": null },
+          "elements": [
+            {
+              "id": "h2trad01",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": { "title": "Historia y tradiciones", "header_size": "h2", "align": "center", "title_color": "#3A2A20" },
+              "elements": []
+            },
+            {
+              "id": "txtrad01",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">En Chile, la comida siempre viene acompañada de una historia. Aquí contamos de dónde vienen nuestros platos y las costumbres que los rodean: <strong>la once</strong> de la tarde con pan amasado y sopaipillas, <strong>el asado</strong> de los fines de semana y <strong>la vendimia</strong> en el Valle Central. Cada receta guarda un pedacito de identidad.</p>"
+              },
+              "elements": []
+            }
+          ],
+          "isInner": false
+        }
+      ],
+      "isInner": false
+    }
+  ]
+}

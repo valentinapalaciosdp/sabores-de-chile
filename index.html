@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabores de Chile &#8211; Cocina tradicional chilena</title>
+  <meta name="description" content="Un sitio dedicado a la cocina tradicional chilena: recetas de toda la vida, historias y las tradiciones que se viven alrededor de la mesa.">
+
+  <!-- Tipografías de Google (igual que se cargan desde Elementor).
+       Se cargan después de mostrar la página, sin bloquearla: si no hay
+       internet, se usan las fuentes del sistema definidas en estilos.css. -->
+  <noscript>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600&display=swap">
+  </noscript>
+  <script>
+    window.addEventListener('load', function () {
+      var l = document.createElement('link');
+      l.rel = 'stylesheet';
+      l.href = 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600&display=swap';
+      document.head.appendChild(l);
+    });
+  </script>
+
+  <!-- Hoja de estilos del sitio -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<!-- El <body> usa clases típicas que WordPress + Elementor agregan a la página -->
+<body class="home page elementor-default elementor-kit-7 elementor-page">
+
+  <!-- ===================== ENCABEZADO / MENÚ DE NAVEGACIÓN ===================== -->
+  <header class="site-header" id="masthead">
+    <div class="elementor-container header-container">
+
+      <a class="site-logo" href="#inicio" aria-label="Inicio - Sabores de Chile">
+        <span class="logo-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="34" height="34">
+            <path d="M8 30 a16 16 0 0 0 32 0 Z" fill="#e6a23c"/>
+            <path d="M8 30 a16 16 0 0 0 32 0" fill="none" stroke="#b1232c" stroke-width="3"
+                  stroke-dasharray="1 6" stroke-linecap="round" opacity=".55"/>
+          </svg>
+        </span>
+        <span class="logo-text">Sabores de Chile</span>
+      </a>
+
+      <!-- Menú principal del sitio (Apariencia &gt; Menús en WordPress) -->
+      <nav class="main-nav" id="site-navigation" aria-label="Menú principal">
+        <ul id="primary-menu" class="menu">
+          <li class="menu-item current-menu-item"><a href="#inicio">Inicio</a></li>
+          <li class="menu-item"><a href="#recetas">Recetas</a></li>
+          <li class="menu-item"><a href="#tradiciones">Tradiciones</a></li>
+          <li class="menu-item"><a href="#sobre">Sobre el sitio</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="content" class="site-content">
+
+    <!-- ===================== SECCIÓN 1: BIENVENIDA ===================== -->
+    <section id="inicio" class="elementor-section elementor-top-section hero-section"
+             data-element_type="section">
+      <div class="elementor-container hero-container">
+
+        <!-- Columna de texto (sobre la foto de fondo) -->
+        <div class="elementor-column hero-text">
+          <div class="elementor-widget-wrap">
+
+            <!-- Royal Addons: Advanced Heading -->
+            <div class="elementor-element elementor-widget elementor-widget-wpr-advanced-heading">
+              <div class="elementor-widget-container">
+                <div class="wpr-advanced-heading">
+                  <span class="hero-eyebrow">¡Bienvenida y bienvenido!</span>
+                  <h1 class="wpr-heading-title elementor-heading-title">
+                    Sabores de <span class="resaltado">Chile</span>
+                  </h1>
+                  <span class="wpr-heading-divider" aria-hidden="true"></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Elementor: Text Editor -->
+            <div class="elementor-element elementor-widget elementor-widget-text-editor">
+              <div class="elementor-widget-container">
+                <p>
+                  Este es un sitio dedicado a la <strong>cocina tradicional chilena</strong>,
+                  esa que aprendemos en la casa y que nos junta alrededor de la mesa.
+                  Aquí vas a encontrar recetas de toda la vida, la historia detrás de
+                  cada plato y las tradiciones que hacen que comer en Chile sea
+                  mucho más que solo alimentarse.
+                </p>
+              </div>
+            </div>
+
+            <!-- Royal Addons: Button -->
+            <div class="elementor-element elementor-widget elementor-widget-wpr-button">
+              <div class="elementor-widget-container">
+                <div class="wpr-button-wrap">
+                  <a class="wpr-button" href="#recetas">Ver las recetas</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ELEMENTO VISUAL: separador decorativo (widget Divider de Elementor) -->
+    <div class="elementor-element elementor-widget elementor-widget-divider seccion-separador">
+      <div class="elementor-widget-container">
+        <div class="elementor-divider">
+          <span class="elementor-divider-separator">
+            <svg class="separador-adorno" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+              <path d="M12 2l2.4 6.6L21 9.2l-5 4.3 1.7 6.5L12 16.8 6.3 20l1.7-6.5-5-4.3 6.6-.6z"
+                    fill="#e6a23c"/>
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== SECCIÓN 2: RECETAS ===================== -->
+    <section id="recetas" class="elementor-section elementor-top-section recetas-section"
+             data-element_type="section">
+      <div class="elementor-container columna-titulo">
+        <div class="elementor-column elementor-col-100">
+          <div class="elementor-widget-wrap">
+
+            <!-- Encabezado de sección -->
+            <div class="elementor-element elementor-widget elementor-widget-heading">
+              <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default centrado">
+                  Recetas tradicionales
+                </h2>
+              </div>
+            </div>
+
+            <!-- Texto descriptivo -->
+            <div class="elementor-element elementor-widget elementor-widget-text-editor">
+              <div class="elementor-widget-container">
+                <p class="texto-intro">
+                  Empezamos por lo más rico: los platos clásicos que no pueden faltar.
+                  Paso a paso, con ingredientes que encuentras en cualquier feria,
+                  para que te queden igual que en casa.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Tres tarjetas (Royal Addons: Icon Box) -->
+      <div class="elementor-container tarjetas">
+
+        <div class="elementor-column elementor-col-33">
+          <div class="elementor-element elementor-widget elementor-widget-wpr-icon-box">
+            <div class="elementor-widget-container">
+              <article class="wpr-icon-box tarjeta">
+                <span class="wpr-icon-box-icon tarjeta-icono">
+                  <img src="img/icono-empanada.png" alt="Ilustración de una empanada de pino">
+                </span>
+                <h3 class="wpr-icon-box-title">Empanadas de pino</h3>
+                <p class="wpr-icon-box-description">
+                  La reina de las Fiestas Patrias: carne, cebolla, huevo, aceituna y
+                  una pasita. Crujiente por fuera y jugosa por dentro.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="elementor-column elementor-col-33">
+          <div class="elementor-element elementor-widget elementor-widget-wpr-icon-box">
+            <div class="elementor-widget-container">
+              <article class="wpr-icon-box tarjeta">
+                <span class="wpr-icon-box-icon tarjeta-icono">
+                  <img src="img/icono-pastel.png" alt="Ilustración de pastel de choclo">
+                </span>
+                <h3 class="wpr-icon-box-title">Pastel de choclo</h3>
+                <p class="wpr-icon-box-description">
+                  Choclo molido y gratinado sobre un buen pino, con su toque de azúcar.
+                  El plato de los almuerzos de verano por excelencia.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="elementor-column elementor-col-33">
+          <div class="elementor-element elementor-widget elementor-widget-wpr-icon-box">
+            <div class="elementor-widget-container">
+              <article class="wpr-icon-box tarjeta">
+                <span class="wpr-icon-box-icon tarjeta-icono">
+                  <img src="img/icono-cazuela.png" alt="Ilustración de una cazuela chilena">
+                </span>
+                <h3 class="wpr-icon-box-title">Cazuela de la casa</h3>
+                <p class="wpr-icon-box-description">
+                  Un caldo reconfortante con su presa, papa, zapallo y choclo.
+                  Perfecta para los días fríos del sur de Chile.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== SECCIÓN 3: TRADICIONES ===================== -->
+    <section id="tradiciones" class="elementor-section elementor-top-section tradiciones-section"
+             data-element_type="section">
+      <div class="elementor-container">
+
+        <!-- Columna visual (ELEMENTO VISUAL: ilustración) -->
+        <div class="elementor-column elementor-col-40 tradiciones-visual">
+          <div class="elementor-widget-wrap">
+            <div class="elementor-element elementor-widget elementor-widget-image">
+              <div class="elementor-widget-container">
+                <img class="tradiciones-illustration" src="img/tradiciones.png"
+                     alt="Mesa chilena con pan amasado, sopaipillas, té, uvas y un asado en un viñedo">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna de texto -->
+        <div class="elementor-column elementor-col-60 tradiciones-text">
+          <div class="elementor-widget-wrap">
+
+            <!-- Encabezado de sección -->
+            <div class="elementor-element elementor-widget elementor-widget-heading">
+              <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title elementor-size-default">
+                  Historia y tradiciones
+                </h2>
+              </div>
+            </div>
+
+            <!-- Texto descriptivo -->
+            <div class="elementor-element elementor-widget elementor-widget-text-editor">
+              <div class="elementor-widget-container">
+                <p>
+                  En Chile, la comida siempre viene acompañada de una historia. Aquí
+                  contamos de dónde vienen nuestros platos y las costumbres que los rodean:
+                </p>
+                <ul class="lista-tradiciones">
+                  <li><strong>La once:</strong> ese momento sagrado de la tarde con pan amasado, té y sopaipillas.</li>
+                  <li><strong>El asado:</strong> la junta de los fines de semana, donde el secreto está en la paciencia.</li>
+                  <li><strong>La vendimia:</strong> la cosecha de la uva en el Valle Central y el vino que la acompaña.</li>
+                </ul>
+                <p>
+                  Cada receta guarda un pedacito de identidad, y en esta sección las
+                  iremos compartiendo de a poco.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== SECCIÓN EXTRA: SOBRE EL SITIO ===================== -->
+    <section id="sobre" class="elementor-section elementor-top-section sobre-section"
+             data-element_type="section">
+      <div class="elementor-container columna-titulo">
+        <div class="elementor-column elementor-col-100">
+          <div class="elementor-widget-wrap">
+            <div class="elementor-element elementor-widget elementor-widget-heading">
+              <div class="elementor-widget-container">
+                <h2 class="elementor-heading-title centrado claro">Sobre el sitio</h2>
+              </div>
+            </div>
+            <div class="elementor-element elementor-widget elementor-widget-text-editor">
+              <div class="elementor-widget-container">
+                <p class="texto-intro claro">
+                  <em>Sabores de Chile</em> nació como un proyecto para rescatar y compartir
+                  la cocina con la que crecimos. La idea es sencilla: que cualquier persona,
+                  esté donde esté, pueda cocinar un pedacito de Chile en su casa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== PIE DE PÁGINA ===================== -->
+  <footer class="site-footer" id="colophon">
+    <div class="elementor-container footer-container">
+      <p class="footer-marca">🥟 Sabores de Chile</p>
+      <p class="footer-creditos">
+        Sitio creado por Valentina Palacios con WordPress, Elementor y Royal Addons &middot; 2026
+      </p>
+    </div>
+  </footer>
+
+  <!-- Pequeño script para abrir/cerrar el menú en celulares -->
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      const abierto = nav.classList.toggle('abierto');
+      toggle.setAttribute('aria-expanded', abierto);
+    });
+    // Cierra el menú al tocar un enlace (en celular)
+    document.querySelectorAll('.main-nav a').forEach(a => {
+      a.addEventListener('click', () => nav.classList.remove('abierto'));
+    });
+
+    // El encabezado es transparente sobre la foto y se vuelve sólido al bajar
+    const header = document.querySelector('.site-header');
+    const actualizarHeader = () => header.classList.toggle('scrolled', window.scrollY > 40);
+    actualizarHeader();
+    window.addEventListener('scroll', actualizarHeader, { passive: true });
+  </script>
+
+</body>
+</html>
